@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Kachi Onyeador</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="hero">
+            <div class="profile-img">
+                <!-- Replace 'your-profile-photo.jpg' with your actual image file -->
+                <img src="images/kachiheadshot.jpeg" alt="Your Name">
+            </div>
+            <h1 class="glitch" data-text="Hello, I'm [Your Name]">Hello, I'm Kachi Onyeador</h1>
+            <p class="subtitle">Welcome to my Website!</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kachionyeador" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="your-image.jpg" alt="Your Name">
+                </div>
+                <div class="about-content">
+                    <p>Your introduction goes here. Make it personal and engaging!</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <!-- Add more skills -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="carousel">
+                            <button class="carousel-btn prev">❮</button>
+                            <button class="carousel-btn next">❯</button>
+                            <div class="carousel-images">
+                                <!-- Add multiple images for each project -->
+                                <img src="images/huescreenshot.png" alt="Project 1" class="active">
+                                <img src="images/huescreenshot2.png" alt="Project 1">
+                                <img src="images/huescreenshot3.png" alt="Project 1">
+                                <img src="images/huescreenshot4.png" alt="Project 1">
+                            </div>
+                            <div class="carousel-dots">
+                                <!-- Dots will be added by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hue</h3>
+                        <p class="project-brief">A 2D platformer puzzle game where your creativity is key to escape!</p>
+                        
+                        <!-- Wrap both details and button in a container -->
+                        <div class="details-container">
+                            <div class="project-details">
+                                <ul>
+                                    <li><strong>Tech Stack: </strong>Unity, C# </li>
+                                    <li>Role: Game Developer and Animator</li>
+                                    <li>One of my proudest achievements was working on this game.</li>
+                                </ul>
+                            </div>
+                            <button class="read-more-btn">Read More ▼</button>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://thehuecreators.itch.io/hue" target="_blank" class="btn">Play Game</a>
+                            <a href="https://www.youtube.com/watch?v=GdRsOyh9RYA&ab_channel=IvyFayBragin" target="_blank" class="btn btn-outline">Watch Game Trailer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="carousel">
+                            <button class="carousel-btn prev">❮</button>
+                            <button class="carousel-btn next">❯</button>
+                            <div class="carousel-images">
+                                <!-- Add multiple images for each project -->
+                                <img src="images/streetfighterscreenshot.png" alt="Project 3" class="active">
+                                <img src="images/streetfighterscreenshot2.png" alt="Project 3">
+                                <img src="images/streetfighterscreenshot3.png" alt="Project 3">
+                                <img src="images/streetfighterscreenshot4.png" alt="Project 3">
+                            </div>
+                            <div class="carousel-dots">
+                                <!-- Dots will be added by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Street Fighter: Snap Edition</h3>
+                        <p class="project-brief">Created my own version of Street Fighter with 2 modes, and created working video game controllers.</p>
+                        
+                        <div class="details-container">
+                            <div class="project-details">
+                                <ul>
+                                    <li><strong>Tech Stack: </strong>Snap, Arduino.</li>
+                                    <li>Created a Player vs Player level, and a Player vs AI level</li>
+                                    <li>I did this as a solo project for my first ever computer science class at UC Berkeley. I did it as a solo project and worked on it for months. It was the first video game I ever created!</li>
+                                    <li>I was the first project in the history of the class to use Arduino, and I was selected to showcase my game at CS Education Day to Oakland Tech High School students! </li>
+                                </ul>
+                            </div>
+                            <button class="read-more-btn">Read More ▼</button>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=EVNpgBqzOIE&ab_channel=KachiOnyeador" target="_blank" class="btn btn-outline">Watch Game Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="carousel">
+                            <button class="carousel-btn prev">❮</button>
+                            <button class="carousel-btn next">❯</button>
+                            <div class="carousel-images">
+                                <!-- Add multiple images for each project -->
+                                <img src="images/equiteascreenshot.png" alt="Project 4" class="active">
+                                <img src="images/equiteascreenshot2.png" alt="Project 4">
+                                <img src="images/equiteascreenshot4.png" alt="Project 4">
+                                <img src="images/equiteascreenshot3.png" alt="Project 4">
+                            </div>
+                            <div class="carousel-dots">
+                                <!-- Dots will be added by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>EquiTea</h3>
+                        <p class="project-brief">An app dedicated to helping users find restaurants based on their social causes they are interested in.</p>
+                        
+                        <div class="details-container">
+                            <div class="project-details">
+                                <ul>
+                                    <li><strong>Tech Stack: </strong>Java, Android Studio</li>
+                                    <li>This was a project for my User Interface and Design class. I got to learn Human Computer Interaction and how to create apps for social justice causes. </li>
+                                    <li><strong>The (Really Cool) Origin Story:</strong> In Summer 2020, as BSU Communications Director, I raised $50,000 and secured resources for Black student organizations and housing-insecure students at UC Berkeley. Witnessing how local businesses rallied to support our cause inspired me to pitch the idea of EquiTea to our team, an app that connects users with inclusive restaurants aligned with their values and causes they want to support—whether it’s accessibility, LGBTQ+ acceptance, and more.</li>                            </div>
+                            <button class="read-more-btn">Read More ▼</button>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://kaleidoscope.hybrid-ecologies.org/portfolio/lif9HHdtMLf8bGDjZdH1" target="_blank" class="btn">View Link to Showcase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="carousel">
+                            <button class="carousel-btn prev">❮</button>
+                            <button class="carousel-btn next">❯</button>
+                            <div class="carousel-images">
+                                <!-- Add your project images here -->
+                                <img src="images/crownchannel3.png" alt="Project" class="active">
+                                <img src="images/crownchannel2.png" alt="Project">
+                                <img src="images/crownchannel5.png" alt="Project">
+                                <img src="images/crownchannel4.png" alt="Project">
+                            </div>
+                            <div class="carousel-dots">
+                                <!-- Dots will be added by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Feature for Crown Channel</h3>
+                        <p class="project-brief">Led the R&D of a Twitch extension for Crown Channel that turns audience interactions into personalized ways to support, or sabotage their favorite streamers in our Fight Night live show.</p>
+                        
+                        <div class="details-container">
+                            <div class="project-details">
+                                <ul>
+                                    <li><strong>Tech Stack: </strong>AWS, Twitch API, Typescript, React</li>
+                                    <li>Designed the "Channel Points Redemption Tracker," enabling audiences to redeem points to sabotage or support streamers (e.g., low brightness, one-handed play).</li>
+                                    <li>Initially launched midway through Fight Night Season 1, its success led to adaptations for future seasons, including "Vibe Check" and brand integrations with Intel and EA.</li>
+                                    <li>This was my first opportunity to explore experimental, interactive, and personalized storytelling!</li>
+                                    <li><strong>Fun Fact: </strong>My first manager was 1 of 4 creators of Madden, and my later manager was a lead game developer at Telltale Games—one of my favorite studios and a pioneer in decision-based storytelling. Their guidance was invaluable for me as a gamer and fan of adaptive storytelling.</li>
+                                </ul>
+                            </div>
+                            <button class="read-more-btn">Read More ▼</button>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=AnkaAb6PDXc&t=1h11m04s" target="_blank" class="btn">View Demo</a>
+                            <a href="https://www.twitch.tv/videos/1073491042?filter=all&sort=time" target="_blank" class="btn btn-outline">Fight Night Trailer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-grid">
+                <div class="experience">
+                    <h3>Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Job Title</h4>
+                            <p class="company">Company Name</p>
+                            <p class="period">2020 - Present</p>
+                            <ul>
+                                <li>Achievement 1</li>
+                                <li>Achievement 2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>UC Berkeley</h4>
+                            <p class="company">B.A. in Cognitive Science, Computer Science & Theater dual minors</p>
+                            <p class="period">2017 - 2022</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>University of London Queen Mary</h4>
+                            <p class="company">Study Abroad in Human Computer Interaction & Performance</p>
+                            <p class="period">2021 - 2022</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Contra Costa College</h4>
+                            <p class="company">A.A. in Liberal Arts: Math and Science, Dual Enrollment with high school</p>
+                            <p class="period">2013 - 2017</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Cornell University</h4>
+                            <p class="company">Awarded Full Ride Scholarship to study Public Policy for a summer</p>
+                            <p class="period">2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume-download">
+                <a href="your-resume.pdf" class="btn btn-large" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
