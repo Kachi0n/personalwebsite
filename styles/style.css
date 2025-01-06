@@ -401,3 +401,5 @@ body {
 .tag-vr { background-color: #17a2b8; }            /* Cool blue */
 .tag-immersive { background-color: #0099cc; }     /* Deeper sky blue */
 .tag-uiux { background-color: #ff5722; }          /* Deep orange-red (instead of gray) */
+.tag-assistive { background-color: #2196F3; } /* A nice blue shade distinct from other tags */
+
