@@ -191,11 +191,12 @@ body {
 /* Skills */
 .skill-tag {
     display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #f3f3f3;
+    padding: 0.3rem 0.8rem;
+    background-color: #e0f7fa;
     border-radius: 20px;
     margin: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    color: #00796b;
 }
 
 /* Timeline */
@@ -377,3 +378,26 @@ body {
 .project-details ul li {
     margin-bottom: 10px;
 }
+
+.tag {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.tag-gaming { background-color: #007bff; }        /* Bright blue */
+.tag-interactive { background-color: #ff9100; }   /* Deep orange (instead of yellow) */
+.tag-hardware { background-color: #dc3545; }      /* Bold red */
+.tag-edtech { background-color: #28a745; }        /* Fresh green */
+.tag-social { background-color: #6f42c1; }        /* Rich purple */
+.tag-mobile { background-color: #fd7e14; }        /* Warm orange */
+.tag-hcd { background-color: #20c997; }           /* Turquoise */
+.tag-accessibility { background-color: #9c27b0; } /* Bright purple */
+.tag-industry { background-color: #6610f2; }      /* Deep purple */
+.tag-live { background-color: #e83e8c; }          /* Hot pink */
+.tag-vr { background-color: #17a2b8; }            /* Cool blue */
+.tag-immersive { background-color: #0099cc; }     /* Deeper sky blue */
+.tag-uiux { background-color: #ff5722; }          /* Deep orange-red (instead of gray) */
