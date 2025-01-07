@@ -169,18 +169,20 @@ body {
 /* Buttons */
 .btn {
     display: inline-block;
-    padding: 0.8rem 1.5rem;
+    padding: 0.4rem 0.8rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
     border-radius: 5px;
     font-weight: 500;
     transition: var(--transition);
+    border: 1px solid transparent;
 }
 
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(100, 244, 172, 0.3);
+    background-color: rgba(223, 197, 254, 0.8);
 }
 
 .btn-outline {
@@ -258,6 +260,7 @@ body {
 .details-container {
     position: relative;
     margin: 1rem 0;
+    margin-top: 0.5rem;
 }
 
 .project-details {
@@ -402,4 +405,27 @@ body {
 .tag-immersive { background-color: #0099cc; }     /* Deeper sky blue */
 .tag-uiux { background-color: #ff5722; }          /* Deep orange-red (instead of gray) */
 .tag-assistive { background-color: #2196F3; } /* A nice blue shade distinct from other tags */
+
+.details {
+    margin-left: 1.5rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.details li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.details li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
 
