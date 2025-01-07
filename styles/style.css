@@ -54,6 +54,7 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin-left: auto;
 }
 
 .nav-links a {
@@ -429,3 +430,19 @@ body {
     background-color: var(--secondary-color);
 }
 
+
+#about p {
+    margin-bottom: 1.5rem; /* Space between paragraphs */
+}
+
+.hero {
+    margin-bottom: -200px; /* Adjust this value to control space below the hero section */
+}
+
+.social-links {
+    margin-bottom: -50px; /* Reduce this value to decrease space below the icons */
+}
+
+.section-title {
+    margin-top: 0; /* Remove any top margin to bring the title closer */
+}
