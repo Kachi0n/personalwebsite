@@ -42,13 +42,17 @@ window.addEventListener('scroll', () => {
 // Add to your existing JavaScript
 document.querySelectorAll('.read-more-btn').forEach(button => {
     button.addEventListener('click', () => {
-        const details = button.parentElement.querySelector('.project-details');
+        // Find the closest details container first
+        const detailsContainer = button.closest('.details-container');
+        // Then find the project-details within that specific container
+        const details = detailsContainer.querySelector('.project-details');
         const isExpanded = details.classList.contains('active');
         
+        // Toggle the active class instead of display style
         details.classList.toggle('active');
         
         // Update button text
-        button.textContent = isExpanded ? 'Read More ▼' : 'Read Less ▼';
+        button.textContent = isExpanded ? 'Read More ▼' : 'Read Less ▲';
     });
 });
 
